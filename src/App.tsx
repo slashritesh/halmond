@@ -5,6 +5,7 @@ import LandingPage from "./pages/LandingPage";
 import Login from "./pages/authpages/Login";
 import HomeLayout from "./components/HomeLayout";
 import SignIn from "./pages/authpages/SignIn";
+import Allproducts from "./pages/Allproducts";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
 
       <Route path="/" element={<HomeLayout />}>
         <Route index element={<LandingPage />} />
-        <Route path="/products" element={<div>all Product</div>} />
+        <Route path="/products" element={<Allproducts />} />
       </Route>
 
       <Route path="/cart" element={<div>my cart</div>} />

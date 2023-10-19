@@ -4,7 +4,7 @@ import Navbar from "./ui/Navbar"
 
 const HomeLayout = () => {
   return (
-    <div>
+    <div className="h-auto pb-10">
         <Navbar />
         <div className="px-20">
         <Outlet />
